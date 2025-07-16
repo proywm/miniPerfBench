@@ -1,0 +1,579 @@
+{
+  "benchmarks": [
+    {
+      "name": "benchmark_1025",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 6148.4,
+        "std_ms": 144.2889462155712
+      },
+      "human_optimized": {
+        "mean_ms": 140.8,
+        "std_ms": 14.237275020171522
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 4,
+        "mean_ms": 6098.2,
+        "std_ms": 38.401822873400164
+      }
+    },
+    {
+      "name": "benchmark_1038",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 11880.6,
+        "std_ms": 1.51657508881031
+      },
+      "human_optimized": {
+        "mean_ms": 11546.4,
+        "std_ms": 2.6076809620810595
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 9,
+        "mean_ms": 11840.6,
+        "std_ms": 2.5099800796022267
+      }
+    },
+    {
+      "name": "benchmark_1144",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 799.4,
+        "std_ms": 20.647033685253678
+      },
+      "human_optimized": {
+        "mean_ms": 678.8,
+        "std_ms": 116.55342122820763
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 2,
+        "mean_ms": 812.6,
+        "std_ms": 40.91210089936717
+      }
+    },
+    {
+      "name": "benchmark_122",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 8637.6,
+        "std_ms": 2.3021728866442674
+      },
+      "human_optimized": {
+        "mean_ms": 803.8,
+        "std_ms": 125.84792409889009
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 6,
+        "mean_ms": 8549.6,
+        "std_ms": 6.308724118235001
+      }
+    },
+    {
+      "name": "benchmark_1277",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 7465.2,
+        "std_ms": 1684.2763134355362
+      },
+      "human_optimized": {
+        "mean_ms": 2099.2,
+        "std_ms": 8.46758525200662
+      },
+      "status": "CE"
+    },
+    {
+      "name": "benchmark_1402",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 5055.4,
+        "std_ms": 33.027261466854924
+      },
+      "human_optimized": {
+        "mean_ms": 360.8,
+        "std_ms": 318.8121704075928
+      },
+      "status": "RE"
+    },
+    {
+      "name": "benchmark_1423",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 9874.6,
+        "std_ms": 112.41129836453273
+      },
+      "human_optimized": {
+        "mean_ms": 3887.4,
+        "std_ms": 10.334408546211051
+      },
+      "status": "CO"
+    },
+    {
+      "name": "benchmark_1520",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 6942.6,
+        "std_ms": 10.737783756436894
+      },
+      "human_optimized": {
+        "mean_ms": 3055.6,
+        "std_ms": 221.68626479779934
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 2,
+        "mean_ms": 1770.8,
+        "std_ms": 3.8340579025361627
+      }
+    },
+    {
+      "name": "benchmark_1583",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 5324.2,
+        "std_ms": 178.9390957840125
+      },
+      "human_optimized": {
+        "mean_ms": 407.2,
+        "std_ms": 172.8632407425014
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 2,
+        "mean_ms": 5321.2,
+        "std_ms": 37.11738137315185
+      }
+    },
+    {
+      "name": "benchmark_1693",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 6238.0,
+        "std_ms": 4.847679857416329
+      },
+      "human_optimized": {
+        "mean_ms": 2504.0,
+        "std_ms": 2.345207879911715
+      },
+      "status": "CO"
+    },
+    {
+      "name": "benchmark_442_gpu",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 9395.6,
+        "std_ms": 78.94175067731904
+      },
+      "human_optimized": {
+        "mean_ms": 5299.6,
+        "std_ms": 6.54217089351845
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 7,
+        "mean_ms": 9293.8,
+        "std_ms": 86.9005178350509
+      }
+    },
+    {
+      "name": "benchmark_674",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 4480.0,
+        "std_ms": 43.61192497471305
+      },
+      "human_optimized": {
+        "mean_ms": 538.8,
+        "std_ms": 7.362064927722384
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 2,
+        "mean_ms": 609.0,
+        "std_ms": 35.503520952153465
+      }
+    },
+    {
+      "name": "benchmark_744",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 8681.2,
+        "std_ms": 77.09863812026772
+      },
+      "human_optimized": {
+        "mean_ms": 6925.4,
+        "std_ms": 218.3043746698632
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 7,
+        "mean_ms": 7907.8,
+        "std_ms": 225.17037993483956
+      }
+    },
+    {
+      "name": "benchmark_767",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 7053.8,
+        "std_ms": 16.543881044059763
+      },
+      "human_optimized": {
+        "mean_ms": 359.0,
+        "std_ms": 24.829418035870273
+      },
+      "status": "CE"
+    },
+    {
+      "name": "benchmark_890",
+      "category": "openmp (OMP)",
+      "original": {
+        "mean_ms": 3878.4,
+        "std_ms": 199.8994747366786
+      },
+      "human_optimized": {
+        "mean_ms": 3397.4,
+        "std_ms": 167.08470905501795
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 1,
+        "mean_ms": 3311.4,
+        "std_ms": 139.61482729280584
+      }
+    },
+    {
+      "name": "dataset_006",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 36479.0,
+        "std_ms": 1567.1955844756583
+      },
+      "human_optimized": {
+        "mean_ms": 31247.2,
+        "std_ms": 152.48999967210966
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 8,
+        "mean_ms": 7379.2,
+        "std_ms": 42.07968631061786
+      }
+    },
+    {
+      "name": "dataset_007",
+      "category": "Repeated Function Calls (RF)",
+      "original": {
+        "mean_ms": 3684.6,
+        "std_ms": 16.772000476985447
+      },
+      "human_optimized": {
+        "mean_ms": 2432.6,
+        "std_ms": 52.738031817655084
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 4,
+        "mean_ms": 2794.4,
+        "std_ms": 30.533588062984016
+      }
+    },
+    {
+      "name": "dataset_009",
+      "category": "Repeated Function Calls (RF)",
+      "original": {
+        "mean_ms": 9082.2,
+        "std_ms": 190.42111227487354
+      },
+      "human_optimized": {
+        "mean_ms": 7832.4,
+        "std_ms": 215.51635668783936
+      },
+      "status": "CO"
+    },
+    {
+      "name": "dataset_049",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 6319.2,
+        "std_ms": 28.78714991102801
+      },
+      "human_optimized": {
+        "mean_ms": 5187.0,
+        "std_ms": 31.232995373482833
+      },
+      "status": "CO"
+    },
+    {
+      "name": "dataset_074",
+      "category": "Duplicated Conditional Evaluation (CE)",
+      "original": {
+        "mean_ms": 477.6,
+        "std_ms": 4.560701700396552
+      },
+      "human_optimized": {
+        "mean_ms": 356.2,
+        "std_ms": 0.4472135954999579
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 7,
+        "mean_ms": 526.0,
+        "std_ms": 1.5811388300841898
+      }
+    },
+    {
+      "name": "dataset_125",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 4317.2,
+        "std_ms": 57.03244690524859
+      },
+      "human_optimized": {
+        "mean_ms": 964.2,
+        "std_ms": 14.131525041551601
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 1,
+        "mean_ms": 4341.2,
+        "std_ms": 24.772969139770066
+      }
+    },
+    {
+      "name": "dataset_162",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 4872.2,
+        "std_ms": 0.4472135954999579
+      },
+      "human_optimized": {
+        "mean_ms": 151.2,
+        "std_ms": 0.4472135954999579
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 10,
+        "mean_ms": 4871.8,
+        "std_ms": 1.4832396974191326
+      }
+    },
+    {
+      "name": "dataset_166",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 8745.2,
+        "std_ms": 4.8166378315169185
+      },
+      "human_optimized": {
+        "mean_ms": 8614.8,
+        "std_ms": 24.488772937817853
+      },
+      "status": "CE"
+    },
+    {
+      "name": "dataset_176",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 3869.2,
+        "std_ms": 1.6431676725154984
+      },
+      "human_optimized": {
+        "mean_ms": 202.4,
+        "std_ms": 0.5477225575051661
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 4,
+        "mean_ms": 165.4,
+        "std_ms": 0.8944271909999159
+      }
+    },
+    {
+      "name": "dataset_215",
+      "category": "Loop Invariant Code Motion (LI)",
+      "original": {
+        "mean_ms": 9399.8,
+        "std_ms": 11.903780911962384
+      },
+      "human_optimized": {
+        "mean_ms": 1282.4,
+        "std_ms": 10.667708282475669
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 4,
+        "mean_ms": 1876.6,
+        "std_ms": 0.5477225575051661
+      }
+    },
+    {
+      "name": "dataset_236",
+      "category": "Duplicated Conditional Evaluation (CE)",
+      "original": {
+        "mean_ms": 3012.2,
+        "std_ms": 0.8366600265340756
+      },
+      "human_optimized": {
+        "mean_ms": 293.6,
+        "std_ms": 0.5477225575051661
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 2,
+        "mean_ms": 3282.2,
+        "std_ms": 1.3038404810405297
+      }
+    },
+    {
+      "name": "dataset_331",
+      "category": "Loop Invariant Code Motion (LI)",
+      "original": {
+        "mean_ms": 28765.6,
+        "std_ms": 65.46984038471454
+      },
+      "human_optimized": {
+        "mean_ms": 9.6,
+        "std_ms": 0.5477225575051661
+      },
+      "status": "CO"
+    },
+    {
+      "name": "dataset_333",
+      "category": "Loop Invariant Code Motion (LI)",
+      "original": {
+        "mean_ms": 8348.2,
+        "std_ms": 2.7748873851023217
+      },
+      "human_optimized": {
+        "mean_ms": 1386.4,
+        "std_ms": 0.8944271909999159
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 3,
+        "mean_ms": 8321.0,
+        "std_ms": 4.743416490252569
+      }
+    },
+    {
+      "name": "dataset_384",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 5343.0,
+        "std_ms": 2.0
+      },
+      "human_optimized": {
+        "mean_ms": 15.0,
+        "std_ms": 0.0
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 6,
+        "mean_ms": 19.2,
+        "std_ms": 0.4472135954999579
+      }
+    },
+    {
+      "name": "dataset_395",
+      "category": "Repeated Function Calls (RF)",
+      "original": {
+        "mean_ms": 7410.4,
+        "std_ms": 83.39844123243552
+      },
+      "human_optimized": {
+        "mean_ms": 483.4,
+        "std_ms": 5.079370039680118
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 3,
+        "mean_ms": 196.0,
+        "std_ms": 0.0
+      }
+    },
+    {
+      "name": "dataset_402",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 11046.2,
+        "std_ms": 5.167204273105526
+      },
+      "human_optimized": {
+        "mean_ms": 1.0,
+        "std_ms": 0.0
+      },
+      "status": "CO"
+    },
+    {
+      "name": "dataset_403",
+      "category": "Unnecessary Expensive Recalculation (UE)",
+      "original": {
+        "mean_ms": 8012.6,
+        "std_ms": 7.368853370776216
+      },
+      "human_optimized": {
+        "mean_ms": 7.0,
+        "std_ms": 0.0
+      },
+      "status": "CE"
+    },
+    {
+      "name": "dataset_553",
+      "category": "Loop Invariant Code Motion (LI)",
+      "original": {
+        "mean_ms": 7887.4,
+        "std_ms": 13.315404612703288
+      },
+      "human_optimized": {
+        "mean_ms": 7758.8,
+        "std_ms": 0.8366600265340756
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 9,
+        "mean_ms": 4637.6,
+        "std_ms": 45.92167244341173
+      }
+    },
+    {
+      "name": "dataset_659",
+      "category": "Loop Invariant Code Motion (LI)",
+      "original": {
+        "mean_ms": 12971.4,
+        "std_ms": 294.9632180459116
+      },
+      "human_optimized": {
+        "mean_ms": 10146.6,
+        "std_ms": 71.44438396403177
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 4,
+        "mean_ms": 14592.8,
+        "std_ms": 110.09177989296022
+      }
+    },
+    {
+      "name": "dataset_879",
+      "category": "Loop Invariant Code Motion (LI)",
+      "original": {
+        "mean_ms": 6758.8,
+        "std_ms": 7.395944834840239
+      },
+      "human_optimized": {
+        "mean_ms": 167.2,
+        "std_ms": 0.4472135954999579
+      },
+      "status": "OK",
+      "best_llm": {
+        "step": 3,
+        "mean_ms": 201.4,
+        "std_ms": 0.5477225575051661
+      }
+    }
+  ]
+}
